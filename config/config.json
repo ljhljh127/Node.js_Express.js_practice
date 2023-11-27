@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "root",
+    "password": "ss11299!!",
+    "database": "Node_Project_db",
+    "host": "172.17.0.3",
+    "dialect": "mysql",
+    "port": 3306
+  }
+}

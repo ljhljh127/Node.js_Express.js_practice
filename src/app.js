@@ -9,4 +9,7 @@ const app = express();
 // 이를 통하여 기능 없는 정적 파일 html,css 등을 public 으로 넣고 js 소스를 숨길 수 있음
 // app.use(express.static('public'));
 
-app.listen(3000, function(){console.log("웹 서버가 정상적으로 실행 중입니다.")});
+//database 연결
+require("../models/index");
+
+app.listen(3000, function(){console.log("API 서버가 정상적으로 실행 중입니다.")});

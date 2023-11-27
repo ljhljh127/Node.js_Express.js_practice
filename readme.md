@@ -83,7 +83,7 @@ Apt Package Manager, PPA, NVM을 이용한 방법 중 NVM을 이용하여 Node.j
         ```
         
     3. Nodemon 사용을 위해 package.json에 nodemon을 추가한다.
-    (docker에서 쓸 경우 Legacy 옵션 추가) -L “ 찾느라 개고생”
+    (docker에서 쓸 경우 Legacy 옵션 추가) -L "찾느라 개고생"
         
         ```json
         "scripts": {
