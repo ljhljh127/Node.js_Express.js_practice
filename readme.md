@@ -194,7 +194,7 @@ Apt Package Manager, PPA, NVM을 이용한 방법 중 NVM을 이용하여 Node.j
     
         다음과 같은 user 테이블을 만들고 추가해보자
         
-        ```json
+        ```
         //테스트용 테이블
         유저테이블
         CREATE TABLE UserTable (
@@ -208,7 +208,7 @@ Apt Package Manager, PPA, NVM을 이용한 방법 중 NVM을 이용하여 Node.j
         );
         ```
     
-        **user.js**
+        **user_table.js**
         
         ```jsx
         const Sequelize = require('sequelize');

@@ -2,7 +2,7 @@
 const Sequelize = require("sequelize"); 
 
 // User모델 로드
-const User = require("./user");
+const User = require("./user_table");
 
 // config 로드
 const env = "development";
